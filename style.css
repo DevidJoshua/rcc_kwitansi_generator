@@ -1,0 +1,238 @@
+*{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html{
+    overflow: auto;
+}
+.container{
+    margin: 2px;
+    display: inline-block;
+    border: solid black 1px;
+    width: 106.73pc;
+    height: 45.75pc;
+    display: flex;
+    flex-direction: column;
+    background: url(imgs/loop-bg2.jpg);
+    background-size: auto;
+}
+
+/**
+    headline
+*/
+.headline{
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    background:black ;
+    color: white;
+}
+
+.headline .pull-left{
+
+}
+
+.headline .pull-right{
+
+    flex-grow: 1;
+    text-align: right;
+}
+.headline .pull-right img{
+    margin: 5px;
+}
+
+.content{
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+
+.info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.info .giver-info{
+    border: solid black 1px;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info h6{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+.info strong{
+    font-size: 40px;
+}
+/**
+    end headline
+*/
+
+
+
+/**
+    Amount
+*/
+
+
+.info .amount{
+    margin-top: 10px;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.amount .amount-value{
+    border: solid black 1px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 80%;
+}
+.amount .amount-value h1{
+    display: inline;
+    font-weight: bold;
+    font-size: 50px;
+}
+.amount .amount-value span{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.amount .amount-spell{
+    flex: 1;
+    border: solid black 1px;
+    width: fit-content;
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding: 10px;
+    height: 80%;
+}
+.amount .amount-spell strong{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+.amount .amount-spell p{
+    font-size: 30px;
+    font-weight: bold;
+}
+/**
+    amount breakdown
+*/
+
+.info .amount-breakdown{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info .amount-breakdown table{
+    border: solid black 1px;
+}
+.t-head {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.t-head tr th{
+    box-sizing: content-box;
+    padding: 3px;
+}
+
+.thite{
+    width: 25%;
+}
+.thite table{
+    width: 100%;
+}
+
+.offering{
+    flex: 1;
+    margin-left: 10px;
+}
+.offering table{
+    width: 100%;
+}
+
+.offering table{
+    border: solid black 1px;
+}
+.amount-curr h5{
+    font-size: 20px;
+}
+.amount-curr span{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+
+/**
+    end amount breakdown
+*/
+
+
+/**
+    meta data
+*/
+.meta-data{
+    display: block;
+    width: 20%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.meta-item{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.meta-item h6{
+    font-weight: 500;
+    font-size: 16px;
+}
+.meta-item span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.id-doc{
+    height: 15%;
+    border: solid black 1px;
+}
+
+.date{
+    height: 15%;
+    border: solid black 1px;
+}
+
+.signature{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    border: solid black 1px;
+    text-align: center;
+}
+.sign{
+    flex: 1;
+    background: url(imgs/signature.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
